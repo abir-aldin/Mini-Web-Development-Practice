@@ -1,0 +1,302 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+
+    /* background-image: url('download.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;         
+    background-position: center;        
+    background-attachment: fixed;  */
+}
+
+#Header{
+    width: 100%;
+    height: 13%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    position: fixed;
+
+    box-shadow: 0 8px 16px rgb(92, 49, 235, 0.2);
+}
+
+#picture{
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#Component{
+    display: flex;
+    font-size: 20px;
+    color: rgb(8, 8, 108);
+}
+
+.component{
+    justify-content: space-around;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+#icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contact{
+    text-align: center;
+    font-weight: lighter;
+    margin-left: 180px;
+    margin-right: 25px;
+}
+
+#link-label:hover{
+    cursor: pointer;
+    color: rgb(81, 81, 225);
+    
+}
+
+.ICONN{
+    font-size: 25px;
+    padding: 8px;
+    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ICONN:hover{
+    background-color: rgb(212, 230, 236);
+    cursor: pointer;
+    color: rgb(69, 69, 229);
+}
+
+#global{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+#search{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+#login{
+   border-radius: 20px;
+   height: 30px;
+   width: 80px;
+}
+
+#btn{
+    margin-left: 50px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    border: solid 1px;
+    background-color: green;
+    color: white;
+    border-radius: 25px;
+    font-size: large;
+    height: 40px;
+    width: 120px;
+}
+
+#btn:hover{
+    background-color: rgb(2, 37, 2);
+    cursor: pointer;
+}
+
+#fakeHeader{
+    width: 100%;
+    height: 13%;
+    background-color: whitesmoke;
+}
+
+#title{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(21, 21, 98);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+}
+
+#linkLabelInTitle{
+    margin-left: 30px;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+#page1{
+    height: 90%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+#page2{
+    height: 90%;
+    width: 100%;
+    /* background-color:burlywood; */
+    background-color: whitesmoke;
+
+
+}
+
+#box{
+    height: 75%;
+    width: 100%;
+    display: flex;
+}
+
+.boxes{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subbox{
+    width: 80%;
+    height: 80%;
+    font-size: larger;
+    margin-top: 50px;
+}
+
+
+#btndiv{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-evenly;
+}
+
+.button{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn1{
+    background-color: rgb(58, 58, 203);
+    color: white;
+    padding: 2px;
+}
+
+#btn2{
+    background-color: white;
+    border: solid;
+    border-color: blue;
+    color: blue;
+}
+
+#btn1:hover{
+    background-color: rgb(85, 85, 211);
+    
+}
+
+#btn2:hover{
+    background-color: rgb(228, 228, 236);
+    border-color: rgb(46, 46, 168);
+    color: rgb(46, 46, 168);
+}
+
+#video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 8px 16px rgba(92, 49, 235, 0.2);
+    border-radius: 50px;
+}
+
+
+#tail{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(31, 31, 114);
+}
+
+#cards{
+    /* margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px; */
+
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.card{
+    height: 65%;
+    width: 20%;
+    background-color: yellow;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 8px 16px rgba(92, 49, 235, 0.2);
+
+
+}
+
+#tail2{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#viewbtn{
+    height: 50px;
+    width: 230px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    border: solid;
+    border-color: rgb(38, 111, 135);
+    color: rgb(38, 111, 135);
+    border-radius: 5px;
+    
+    cursor: pointer;
+}
+
+#viewbtn:hover{
+    background-color: rgb(228, 228, 236);
+    border-color: rgb(46, 46, 168);
+    color: rgb(46, 46, 168);
+}
+
